@@ -12,7 +12,7 @@ try:
     model = joblib.load('./model/toxic-comment-analyzer-model.pkl')
     vectorizer = joblib.load('./model/vectorizer.pkl')
 except:
-    print('Training Model...')
+    print('Model not found')
 
 
 # CHeck if there is a model loaded else load the model
@@ -56,7 +56,7 @@ else:
     # We use LogisticRegression as the estimator.
     # LogisticRegression is a linear model for classification. it is a machine learning algorithm for binary classification.
     pipeline = Pipeline([
-        ('clf', MultiOutputClassifier(LogisticRegression(max_iter=1000)))
+        ('clf', MultiOutputClassifier(LogisticRegression()))
     ])
 
     # Train the model
@@ -102,6 +102,7 @@ def get_lifetime_statistics():
         'obscene': 0,
         'severe_toxic': 0,
         'threat': 0,
+        'toxic': 0,
         'total_comments': 0,
         'toxic_comments': 0
     }
@@ -162,6 +163,6 @@ def index():
     return app.send_static_file('index.html')
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(Debug=True)
 
 
