@@ -1,0 +1,5 @@
+{"comment_text": " Good night mr america.", "analysis": {"identity_hate": 0, "insult": 0, "obscene": 0, "severe_toxic": 0, "threat": 0, "toxic": 0}, "isToxic": 0}
+{"comment_text": " Good night mr america.", "analysis": {"identity_hate": 0, "insult": 0, "obscene": 0, "severe_toxic": 0, "threat": 0, "toxic": 0}, "isToxic": 0}
+{"comment_text": "I've never come across anyone as stupid as you. Your mere existence is a pain to everyone around you.", "analysis": {"identity_hate": 0, "insult": 1, "obscene": 0, "severe_toxic": 0, "threat": 0, "toxic": 1}, "isToxic": 1}
+{"comment_text": "I've never come across anyone as stupid as you. Your mere existence is a pain to everyone around you.", "analysis": {"identity_hate": 0, "insult": 1, "obscene": 0, "severe_toxic": 0, "threat": 0, "toxic": 1}, "isToxic": 1}
+{"comment_text": "The amount of nonsense you spout is simply staggering. You're an utter disgrace and a complete waste of space.", "analysis": {"identity_hate": 0, "insult": 0, "obscene": 0, "severe_toxic": 0, "threat": 0, "toxic": 1}, "isToxic": 1}
