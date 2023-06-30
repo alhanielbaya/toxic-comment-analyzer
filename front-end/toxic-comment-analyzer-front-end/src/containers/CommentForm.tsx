@@ -41,10 +41,11 @@ export const CommentForm = () => {
         // Prevent the page from refreshing
         e.preventDefault();
         // CHeck if the comment is empty
-        if (comment === '') {
+        if (comment.trim() === '') {
             setError('Comment cannot be empty.');
             return;
         }
+
 
         // Make a POST request to the Flask server
         try {

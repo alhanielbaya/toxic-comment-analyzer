@@ -1,6 +1,0 @@
-# ignore data folder
-data/
-
-#ignore the csv files
-*.csv
-```
