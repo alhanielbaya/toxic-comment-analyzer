@@ -23,3 +23,10 @@ yarn-debug.log*
 yarn-error.log*
 
 test.py
+
+# ignore data folder
+data/
+
+#ignore the csv files
+*.csv
+```
